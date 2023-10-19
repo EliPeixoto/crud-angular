@@ -2,3 +2,16 @@ table
 {
   width: 100%;
 }
+
+.loading-spinner{
+  //centralizar
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  //sombra no fundo
+  background: rgba(0,0,0,0.15); //cinza
+
+  //espaço interno
+  padding: 25px;
+}
